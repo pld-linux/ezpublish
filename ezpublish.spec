@@ -8,12 +8,12 @@ Group:		Applications/Publishing
 Source0:	http://www.ez.no/content/download/80973/327487/file/ezpublish-3.5.1.tar.bz2
 # Source0-md5:	e2a9c8b79edba287f2624fd3aa9259ae
 URL:		http://ez.no/
-BuildRequires:	mysql-libs
 Requires:	apache
 Requires:	apache-mod_rewrite
 Requires:	php
 Requires:	php-gd
 Requires:	php-pcre
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
