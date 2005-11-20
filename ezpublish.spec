@@ -8,8 +8,8 @@ Group:		Applications/Publishing
 Source0:	http://www.ez.no/content/download/80973/327487/file/ezpublish-3.5.1.tar.bz2
 # Source0-md5:	e2a9c8b79edba287f2624fd3aa9259ae
 URL:		http://ez.no/
-Requires:	apache
-Requires:	apache-mod_rewrite
+Requires:	webserver = apache
+Requires:	apache(mod_rewrite)
 Requires:	php
 Requires:	php-gd
 Requires:	php-pcre
