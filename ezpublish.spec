@@ -2,17 +2,17 @@ Summary:	eZ publish content management system
 Summary(pl):	eZ publish - system zarz±dzania tre¶ci±
 Name:		ezpublish
 Version:	3.5.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Publishing
-Source0:	http://www.ez.no/content/download/80973/327487/file/ezpublish-3.5.1.tar.bz2
+Source0:	http://www.ez.no/content/download/80973/327487/file/%{name}-%{version}.tar.bz2
 # Source0-md5:	e2a9c8b79edba287f2624fd3aa9259ae
 URL:		http://ez.no/
-Requires:	webserver = apache
 Requires:	apache(mod_rewrite)
-Requires:	php
-Requires:	php-gd
-Requires:	php-pcre
+Requires:	php(gd)
+Requires:	php(pcre)
+Requires:	webserver = apache
+Requires:	webserver(php)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -25,7 +25,7 @@ eZ publish jest systemem zarz±dzania tre¶ci± z otwartym kodem
 ¼ród³owym.
 
 %prep
-%setup -q 
+%setup -q
 
 %build
 %{__make}
