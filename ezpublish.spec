@@ -1,5 +1,5 @@
 Summary:	eZ publish content management system
-Summary(pl):	eZ publish - system zarz±dzania tre¶ci±
+Summary(pl.UTF-8):   eZ publish - system zarzÄ…dzania treÅ›ciÄ…
 Name:		ezpublish
 Version:	3.5.1
 Release:	2
@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 eZ publish is an open source content management system and development
 framework.
 
-%description -l pl
-eZ publish jest systemem zarz±dzania tre¶ci± z otwartym kodem
-¼ród³owym.
+%description -l pl.UTF-8
+eZ publish jest systemem zarzÄ…dzania treÅ›ciÄ… z otwartym kodem
+ÅºrÃ³dÅ‚owym.
 
 %prep
 %setup -q
