@@ -1,5 +1,5 @@
 Summary:	eZ publish content management system
-Summary(pl.UTF-8):   eZ publish - system zarządzania treścią
+Summary(pl.UTF-8):	eZ publish - system zarządzania treścią
 Name:		ezpublish
 Version:	3.5.1
 Release:	2
